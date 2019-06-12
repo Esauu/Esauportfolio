@@ -42,27 +42,54 @@ img {
 
 /* -------------------------------------------------------------------*/
 
+/* ---------------------------- FOOTER ------------------------------*/
+
+footer {
+    width: 1440px;
+    height: 230px;
+}
+
+footer p1 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+footer .some {
+    display: flex;
+    justify-content: center;
+    /*  ???????????????????????????? */
+    width: 40px;
+    height: 40px;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------------------------------*/
+
+
 /* ---------------------------- UI BUND ------------------------------*/
 
 .navn {
-    font-size: 1.5rem;
-    position: absolute;
+    font-size: 1.2rem;
+    position: fixed;
     bottom: 0rem;
     left: 1rem;
-
-
 }
 
 .portfolio {
-    font-size: 1.5rem;
-    position: absolute;
+    font-size: 1.2rem;
+    position: fixed;
     bottom: 0rem;
-    right: 7rem;
+    right: 6rem;
 }
 
 .about {
-    font-size: 1.5rem;
-    position: absolute;
+    font-size: 1.2rem;
+    position: fixed;
     bottom: 0rem;
     right: 1rem;
 
@@ -92,3 +119,7 @@ p {
 /* -------------------------------------------------------------------*/
 
 /* ---------------------------- Portfolio ----------------------------*/
+
+article {
+    background-color: gold;
+}
