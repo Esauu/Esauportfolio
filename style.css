@@ -11,6 +11,24 @@ img {
     width: 100%;
 }
 
+/* ---------------------------- classes ------------------------------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 20px 5px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    border: 1px #232023 solid;
+    background-color: white;
+}
+
+.col {
+    flex-grow: 2;
+    flex-basis: 300px;
+}
+
+
 /* ---------------------------- SPLASH ------------------------------*/
 
 #splash {
