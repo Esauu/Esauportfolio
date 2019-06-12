@@ -18,3 +18,48 @@ img {
     background-size: cover;
     background-position: 75% 0%;
 }
+
+.navn {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 1rem;
+
+
+}
+
+.portfolio {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0rem;
+    right: 7rem;
+}
+
+.about {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0rem;
+    right: 1rem;
+
+}
+
+.navn:hover {
+    text-decoration: underline;
+}
+
+.portfolio:hover {
+    text-decoration: underline;
+}
+
+.about:hover {
+    text-decoration: underline;
+}
+
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+
+}
