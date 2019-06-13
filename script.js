@@ -7,6 +7,6 @@ function sidenVises() {
 
 function readMore() {
     console.log('readMore:');
-    document.querySelector("#box").classList.toggle("stor");
-    document.querySelector("#box").classList.toggle("lille");
+    document.querySelector("#tema1").classList.toggle("stor");
+    document.querySelector("#tema1").classList.toggle("lille");
 }

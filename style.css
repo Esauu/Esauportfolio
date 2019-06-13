@@ -16,6 +16,7 @@ img {
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     padding: 5px 20px 5px 20px;
     max-width: 1200px;
     margin: 40px auto;
@@ -43,11 +44,39 @@ img {
 
 /* -------------------------------------------------------------------*/
 
+/* ---------------------------- ABOUT ---------------------------*/
+
+#about {
+    background-image: url(pic/mcp.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 75% 0%;
+}
+
+#about .infoboks {
+    position: absolute;
+    top: 8vw;
+    left: 15vw;
+    background-color: white;
+    width: 30em;
+    height: 70em;
+    border: 1px #232023 solid;
+}
+
+#about p {}
+
+
+
+/* -------------------------------------------------------------------*/
+
+
+
 /* ---------------------------- FOOTER ------------------------------*/
 
 footer {
     width: 1440px;
-    height: 230px;
+    height: 160px;
 }
 
 footer p {
@@ -58,9 +87,9 @@ footer p {
 
 footer .some {
     display: flex;
-
     width: 100%;
     height: 40px;
+    margin-top: 80px;
     justify-content: center;
 }
 
@@ -142,28 +171,27 @@ p {
     height: 40vw;
 }
 
-/**/
+/* ------------------------------ ??????????? ----------------*/
 
-#box {
-    background-color: rgb(255, 210, 0);
+#tema1 {
     position: relative;
-    padding: 15px 10px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
 }
 
-#box.lille {
+#tema1.lille {
     overflow: hidden;
-    max-height: 150px;
+    max-height: 367px;
     transition: max-height 0.5s ease-out;
 }
 
-#box.stor {
+#tema1.stor {
     max-height: 3000px;
     transition: max-height 1s ease-in;
 }
 
 
-/*Laver indhold vha css*/
-#box.lille span:after {
+#tema1.lille span:after {
     content: "+";
 }
 
@@ -173,14 +201,8 @@ span:after {
 
 
 #mere .plus {
-    /*    for at få den nærmere på bunden*/
     margin-top: 40px;
-
-    /*    for at undgå at den opfører sit som et blockelement, og fylder hele bredden. */
-    /*    Derved sikrer jeg at jeg kan bruge parrent text-align: center */
     display: inline-block;
-
-    /*    selve plussets farve og størrelse samt baggrund*/
     color: red;
     font-weight: 800;
     width: 20px;
@@ -189,22 +211,16 @@ span:after {
 }
 
 
-.gult_overlay {
-    /* for at få gradientbaggrunden til at fylde*/
+.overlay {
     height: 60px;
     margin: 0;
-
-    /* for at placere gradientbaggrunden i bunden */
     position: absolute;
     bottom: 0;
     left: 0;
-    /*    For at sikre at den fylder hele sin parent ud i bredden*/
     width: 100%;
-
-    /*    selve gradienten*/
-    background: linear-gradient(rgba(255, 210, 0, 0), rgb(255, 210, 0));
-
-    /*    for at placere plusset i midten*/
     text-align: center;
 
 }
+
+
+/*--------------------------- ++++++++++ -------------------*/
