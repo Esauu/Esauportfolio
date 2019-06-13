@@ -141,3 +141,70 @@ p {
     width: 20vw;
     height: 40vw;
 }
+
+/**/
+
+#box {
+    background-color: rgb(255, 210, 0);
+    position: relative;
+    padding: 15px 10px 20px;
+}
+
+#box.lille {
+    overflow: hidden;
+    max-height: 150px;
+    transition: max-height 0.5s ease-out;
+}
+
+#box.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+/*Laver indhold vha css*/
+#box.lille span:after {
+    content: "+";
+}
+
+span:after {
+    content: "-";
+}
+
+
+#mere .plus {
+    /*    for at få den nærmere på bunden*/
+    margin-top: 40px;
+
+    /*    for at undgå at den opfører sit som et blockelement, og fylder hele bredden. */
+    /*    Derved sikrer jeg at jeg kan bruge parrent text-align: center */
+    display: inline-block;
+
+    /*    selve plussets farve og størrelse samt baggrund*/
+    color: red;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+
+.gult_overlay {
+    /* for at få gradientbaggrunden til at fylde*/
+    height: 60px;
+    margin: 0;
+
+    /* for at placere gradientbaggrunden i bunden */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*    For at sikre at den fylder hele sin parent ud i bredden*/
+    width: 100%;
+
+    /*    selve gradienten*/
+    background: linear-gradient(rgba(255, 210, 0, 0), rgb(255, 210, 0));
+
+    /*    for at placere plusset i midten*/
+    text-align: center;
+
+}
