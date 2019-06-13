@@ -19,6 +19,7 @@ img {
     padding: 5px 20px 5px 20px;
     max-width: 1200px;
     margin: 40px auto;
+    margin-top: 20px;
     border: 1px #232023 solid;
     background-color: white;
 }
@@ -49,7 +50,7 @@ footer {
     height: 230px;
 }
 
-footer p1 {
+footer p {
     display: flex;
     justify-content: center;
     font-size: 12px;
@@ -57,10 +58,15 @@ footer p1 {
 
 footer .some {
     display: flex;
-    justify-content: center;
-    /*  ???????????????????????????? */
-    width: 40px;
+
+    width: 100%;
     height: 40px;
+    justify-content: center;
+}
+
+footer .some img {
+    height: 100%;
+    width: auto;
 }
 
 footer img:hover {
@@ -95,17 +101,19 @@ footer img:hover {
 
 }
 
-.navn:hover {
+/* Man sætter komma. for at sige man taler til nav a og inden i den taler man til p */
+nav a,
+nav a p {
+    text-decoration: none;
+
+}
+
+
+
+nav a:hover p {
     text-decoration: underline;
 }
 
-.portfolio:hover {
-    text-decoration: underline;
-}
-
-.about:hover {
-    text-decoration: underline;
-}
 
 
 p {
@@ -120,6 +128,16 @@ p {
 
 /* ---------------------------- Portfolio ----------------------------*/
 
-article {
+.baggrund {
     background-color: gold;
+}
+
+#tema2 img {
+    width: 20vw;
+    height: 40vw;
+}
+
+#tema6 img {
+    width: 20vw;
+    height: 40vw;
 }
