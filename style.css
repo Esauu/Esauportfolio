@@ -47,11 +47,11 @@ img {
 /* ---------------------------- ABOUT ---------------------------*/
 
 #about {
-    background-image: url(pic/mcp.jpg);
+    background-image: url(pic/Artboard%201-100.jpg);
     width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: 75% 0%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #about .infoboks {
@@ -64,7 +64,24 @@ img {
     border: 1px #232023 solid;
 }
 
-#about p {}
+#about h1 {
+    margin: 1em;
+    font-weight: 800;
+    color: #FDBCB4;
+    text-decoration: underline;
+}
+
+#about h2 {
+    margin: 1em;
+    font-weight: 800;
+    color: #FDBCB4;
+    text-decoration: underline;
+}
+
+#about p {
+    margin: 1.5em;
+    font-weight: 400;
+}
 
 
 
