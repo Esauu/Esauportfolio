@@ -13,7 +13,73 @@ img {
 
 /* ---------------------------- classes ------------------------------*/
 
-.sectionwrapper {
+.sectionwrapper,
+#tema1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5px 20px 5px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-top: 20px;
+    border: 1px #232023 solid;
+    background-color: white;
+}
+
+.sectionwrapper,
+#tema2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5px 20px 5px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-top: 20px;
+    border: 1px #232023 solid;
+    background-color: white;
+}
+
+.sectionwrapper,
+#tema3 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5px 20px 5px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-top: 20px;
+    border: 1px #232023 solid;
+    background-color: white;
+}
+
+.sectionwrapper,
+#tema4 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5px 20px 5px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-top: 20px;
+    border: 1px #232023 solid;
+    background-color: white;
+}
+
+.sectionwrapper,
+#tema5 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5px 20px 5px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-top: 20px;
+    border: 1px #232023 solid;
+    background-color: white;
+}
+
+.sectionwrapper,
+#tema6 {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -188,7 +254,7 @@ p {
     height: 40vw;
 }
 
-/* ------------------------------ ??????????? ----------------*/
+/* ------------------------------ Java-script ------------------------------------*/
 
 #tema1 {
     position: relative;
@@ -212,15 +278,17 @@ p {
     content: "+";
 }
 
-span:after {
+
+
+#tema1 span:after {
     content: "-";
 }
 
 
-#mere .plus {
+#tema1 #mere1 .plus {
     margin-top: 40px;
     display: inline-block;
-    color: red;
+    color: #FDBCB4;
     font-weight: 800;
     width: 20px;
     height: 20px;
@@ -228,7 +296,58 @@ span:after {
 }
 
 
-.overlay {
+#tema1 .overlay {
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+#tema2 {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+#tema2.lille {
+    overflow: hidden;
+    max-height: 367px;
+    transition: max-height 0.5s ease-out;
+}
+
+#tema2.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+#tema2.lille span:after {
+    content: "+";
+}
+
+
+
+#tema2 span:after {
+    content: "-";
+}
+
+
+#tema2 #mere2 .plus {
+    margin-top: 40px;
+    display: inline-block;
+    color: #FDBCB4;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+
+#tema2 .overlay {
     height: 60px;
     margin: 0;
     position: absolute;
@@ -240,4 +359,212 @@ span:after {
 }
 
 
-/*--------------------------- ++++++++++ -------------------*/
+#tema3 {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+#tema3.lille {
+    overflow: hidden;
+    max-height: 367px;
+    transition: max-height 0.5s ease-out;
+}
+
+#tema3.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+#tema3.lille span:after {
+    content: "+";
+}
+
+
+
+#tema3 span:after {
+    content: "-";
+}
+
+
+#tema3 #mere3 .plus {
+    margin-top: 40px;
+    display: inline-block;
+    color: #FDBCB4;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+
+#tema3 .overlay {
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+#tema4 {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+#tema4.lille {
+    overflow: hidden;
+    max-height: 367px;
+    transition: max-height 0.5s ease-out;
+}
+
+#tema4.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+#tema4.lille span:after {
+    content: "+";
+}
+
+
+
+#tema4 span:after {
+    content: "-";
+}
+
+
+#tema4 #mere4 .plus {
+    margin-top: 40px;
+    display: inline-block;
+    color: #FDBCB4;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+
+#tema4 .overlay {
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+#tema5 {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+#tema5.lille {
+    overflow: hidden;
+    max-height: 367px;
+    transition: max-height 0.5s ease-out;
+}
+
+#tema5.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+#tema5.lille span:after {
+    content: "+";
+}
+
+
+
+#tema5 span:after {
+    content: "-";
+}
+
+
+#tema5 #mere5 .plus {
+    margin-top: 40px;
+    display: inline-block;
+    color: #FDBCB4;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+
+#tema5 .overlay {
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+#tema6 {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+#tema6.lille {
+    overflow: hidden;
+    max-height: 367px;
+    transition: max-height 0.5s ease-out;
+}
+
+#tema6.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+#tema6.lille span:after {
+    content: "+";
+}
+
+
+
+#tema6 span:after {
+    content: "-";
+}
+
+
+#tema6 #mere6 .plus {
+    margin-top: 40px;
+    display: inline-block;
+    color: #FDBCB4;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+
+#tema6 .overlay {
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+/*------------------------------------------------------------------------------*/
