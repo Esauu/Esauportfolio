@@ -97,6 +97,8 @@ img {
 }
 
 
+
+
 /* ---------------------------- SPLASH ------------------------------*/
 
 #splash {
@@ -113,11 +115,11 @@ img {
 /* ---------------------------- ABOUT ---------------------------*/
 
 #about {
-    background-image: url(pic/Artboard%201-100.jpg);
+    background-image: url(pic/trekanter.jpg);
     width: 100vw;
-    height: 120vh;
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: 180vh;
+
+
 }
 
 #about .infoboks {
@@ -125,8 +127,8 @@ img {
     top: 8vw;
     left: 15vw;
     background-color: white;
-    width: 30em;
-    height: 70em;
+    width: 30rem;
+    height: 80rem;
     border: 1px #232023 solid;
 }
 
@@ -241,7 +243,8 @@ p {
 /* ---------------------------- Portfolio ----------------------------*/
 
 .baggrund {
-    background-color: gold;
+    background-image: url(pic/te.jpg);
+
 }
 
 #tema2 img {
