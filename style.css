@@ -20,8 +20,7 @@ img {
     position: relative;
     padding: 5px 20px 5px 20px;
     max-width: 1200px;
-    margin: 40px auto;
-    margin-top: 20px;
+    margin: 0px auto;
     border: 1px #232023 solid;
     background-color: white;
 }
@@ -118,9 +117,8 @@ img {
     background-image: url(pic/trekanter.jpg);
     width: 100vw;
     height: 180vh;
-
-
 }
+
 
 #about .infoboks {
     position: absolute;
@@ -243,9 +241,11 @@ p {
 /* ---------------------------- Portfolio ----------------------------*/
 
 .baggrund {
-    background-image: url(pic/te.jpg);
+    background-image: url(pic/trekant_samlet.svg);
 
 }
+
+
 
 #tema2 img {
     width: 20vw;
@@ -262,7 +262,7 @@ p {
 #tema1 {
     position: relative;
     max-width: 1200px;
-    margin: 40px auto;
+
 }
 
 #tema1.lille {
@@ -571,3 +571,25 @@ p {
 
 
 /*------------------------------------------------------------------------------*/
+
+/*-----------------------------  Media queries -------------------------------------*/
+@media only screen and (max-width: 980px) {
+    #splash {
+        background-position: 50% 0%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #splash {
+        background-position: 50% 0%;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #about .infoboks {
+        position: absolute;
+        left: 2vw;
+    }
+}
