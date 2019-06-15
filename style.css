@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+body a {
+    color: black;
+}
+
 
 img {
     width: 100%;
