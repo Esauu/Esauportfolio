@@ -110,28 +110,57 @@ img {
 .col {
     flex-grow: 2;
     flex-basis: 300px;
+    margin-right: 4px;
 }
 
+
+.glow {
+    animation-name: glow_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes glow_kf {
+
+    10% {
+        filter: drop-shadow(10px 10px 100px #FDBCB4);
+
+    }
+}
 
 
 
 /* ---------------------------- SPLASH ------------------------------*/
 
 #splash {
-    background-image: url(pic/splash1.svg);
+    background-image: url(pic/test.svg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
     background-position: 75% 0%;
 }
 
+#splash .bi {
+    background-image: url(pic/splash11.png);
+    position: absolute;
+    bottom: 6vw;
+    right: 25vw;
+    width: 727px;
+    height: 390px;
+    opacity: 0.1;
+
+
+}
 
 /* -------------------------------------------------------------------*/
 
 /* ---------------------------- ABOUT ---------------------------*/
 
 #about {
-    background-image: url(pic/testtest.svg);
+    background-image: url(pic/trekanter.svg);
     width: 100vw;
     height: 180vh;
 }
@@ -212,7 +241,7 @@ footer img:hover {
     font-size: 1.2rem;
     position: fixed;
     bottom: 0rem;
-    left: 1rem;
+    left: 0.7rem;
 }
 
 .portfolio {
@@ -234,6 +263,7 @@ footer img:hover {
 nav a,
 nav a p {
     text-decoration: none;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
 }
 
@@ -269,10 +299,17 @@ p {
     height: 40vw;
 }
 
+#tema3 img { height: 320px;
+    width: 400px
+
+}
+
 #tema6 img {
     width: 20vw;
     height: 40vw;
 }
+
+/* -------------------------------------------------------------------------------*/
 
 /* ------------------------------ Java-script ------------------------------------*/
 
@@ -289,7 +326,7 @@ p {
 }
 
 #tema1.stor {
-    max-height: 3000px;
+    max-height: 30000px;
     transition: max-height 1s ease-in;
 }
 
@@ -342,7 +379,7 @@ p {
 }
 
 #tema2.stor {
-    max-height: 3000px;
+    max-height: 30000px;
     transition: max-height 1s ease-in;
 }
 
@@ -377,6 +414,7 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
+    background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 
 }
 
@@ -394,7 +432,7 @@ p {
 }
 
 #tema3.stor {
-    max-height: 3000px;
+    max-height: 30000px;
     transition: max-height 1s ease-in;
 }
 
@@ -429,6 +467,7 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
+    background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 
 }
 
@@ -446,7 +485,7 @@ p {
 }
 
 #tema4.stor {
-    max-height: 3000px;
+    max-height: 30000px;
     transition: max-height 1s ease-in;
 }
 
@@ -481,7 +520,7 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
-
+background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 }
 
 
@@ -498,7 +537,7 @@ p {
 }
 
 #tema5.stor {
-    max-height: 3000px;
+    max-height: 30000px;
     transition: max-height 1s ease-in;
 }
 
@@ -533,7 +572,7 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
-
+background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 }
 
 
@@ -550,7 +589,7 @@ p {
 }
 
 #tema6.stor {
-    max-height: 3000px;
+    max-height: 30000px;
     transition: max-height 1s ease-in;
 }
 
@@ -585,6 +624,7 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
+    background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 
 }
 
@@ -602,7 +642,7 @@ p {
 }
 
 #tema7.stor {
-    max-height: 3000px;
+    max-height: 30000px;
     transition: max-height 1s ease-in;
 }
 
@@ -637,6 +677,7 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
+    background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 
 }
 
