@@ -118,7 +118,7 @@ img {
 /* ---------------------------- ABOUT ---------------------------*/
 
 #about {
-    background-image: url(pic/trekanter.jpg);
+    background-image: url(pic/testtest.svg);
     width: 100vw;
     height: 180vh;
 }
@@ -296,6 +296,7 @@ p {
     margin-top: 40px;
     display: inline-block;
     color: #FDBCB4;
+    color: ;
     font-weight: 800;
     width: 20px;
     height: 20px;
@@ -311,6 +312,7 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
+    background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 
 }
 
