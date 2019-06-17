@@ -20,6 +20,10 @@ function sidenVises() {
     document.querySelector("#mere6").addEventListener("click", function () {
         readMore("#tema6");
     });
+    document.querySelector("#mere7").addEventListener("click", function () {
+        readMore("#tema7");
+    });
+
 
 }
 

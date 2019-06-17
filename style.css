@@ -94,6 +94,19 @@ img {
     background-color: white;
 }
 
+.sectionwrapper,
+#tema7 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5px 20px 5px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-top: 20px;
+    border: 1px #232023 solid;
+    background-color: white;
+}
+
 .col {
     flex-grow: 2;
     flex-basis: 300px;
@@ -565,6 +578,58 @@ p {
 
 
 #tema6 .overlay {
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+#tema7 {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+#tema7.lille {
+    overflow: hidden;
+    max-height: 367px;
+    transition: max-height 0.5s ease-out;
+}
+
+#tema7.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+#tema7.lille span:after {
+    content: "+";
+}
+
+
+
+#tema7 span:after {
+    content: "-";
+}
+
+
+#tema7 #mere7 .plus {
+    margin-top: 40px;
+    display: inline-block;
+    color: #FDBCB4;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+
+#tema7 .overlay {
     height: 60px;
     margin: 0;
     position: absolute;
