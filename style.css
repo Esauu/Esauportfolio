@@ -1,13 +1,22 @@
 /* ---------------------------------------------------------------------------------*/
-/*Kapitler*/
-/*1* classes*/
-/*2* Splash*/
-/*3* About*/
-/*4* Footer*/
-/*5*UI bund*/
-/*6* Portfolio*/
-/*7* Java-script sektions */
-/*8* Media queries*/
+                    /*------------------KAPTILER-----------------------*/
+
+                                    /*1* classes*/
+
+                                    /*2* Splash*/
+
+                                    /*3* About*/
+
+                                    /*4* Footer*/
+
+                                    /*5*UI bund*/
+
+                                    /*6* Portfolio*/
+
+                                    /*7* Java-script sektions */
+
+                                    /*8* Media queries*/
+
 
 /* ---------------------------------------------------------------------------------*/
 
@@ -31,6 +40,11 @@ img {
 p, ul {
      font-weight: 400;
     font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+   font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -327,10 +341,6 @@ nav p {
     height: 580px;
 }
 
-#tema3 img { height: 320px;
-    width: 400px
-
-}
 
 #tema6 .col2 img {
     width: 350px;
