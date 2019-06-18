@@ -15,6 +15,11 @@ img {
     width: 100%;
 }
 
+p {
+     font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+
 /* ---------------------------- classes ------------------------------*/
 
 .sectionwrapper,
@@ -198,6 +203,7 @@ img {
 #about p {
     margin: 1.5em;
     font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -280,7 +286,7 @@ nav a:hover p {
 
 
 
-p {
+nav p {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     color: black;
@@ -347,12 +353,12 @@ p {
 }
 
 
-#tema1 #mere1 .plus {
-    margin-top: 40px;
+#tema1 #mere1 .plus{
+    margin-top: 28px;
     display: inline-block;
     color: #FDBCB4;
-    color: ;
     font-weight: 800;
+    font-size: 30px;
     width: 20px;
     height: 20px;
     background: white;
@@ -401,10 +407,11 @@ p {
 
 
 #tema2 #mere2 .plus {
-    margin-top: 40px;
+    margin-top: 28px;
     display: inline-block;
     color: #FDBCB4;
     font-weight: 800;
+    font-size: 30px;
     width: 20px;
     height: 20px;
     background: white;
@@ -454,10 +461,11 @@ p {
 
 
 #tema3 #mere3 .plus {
-    margin-top: 40px;
+    margin-top: 28px;
     display: inline-block;
     color: #FDBCB4;
     font-weight: 800;
+    font-size: 30px;
     width: 20px;
     height: 20px;
     background: white;
@@ -507,10 +515,11 @@ p {
 
 
 #tema4 #mere4 .plus {
-    margin-top: 40px;
+    margin-top: 28px;
     display: inline-block;
     color: #FDBCB4;
     font-weight: 800;
+    font-size: 30px;
     width: 20px;
     height: 20px;
     background: white;
@@ -559,10 +568,11 @@ background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 
 
 #tema5 #mere5 .plus {
-    margin-top: 40px;
+    margin-top: 28px;
     display: inline-block;
     color: #FDBCB4;
     font-weight: 800;
+    font-size: 30px;
     width: 20px;
     height: 20px;
     background: white;
@@ -611,10 +621,11 @@ background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 
 
 #tema6 #mere6 .plus {
-    margin-top: 40px;
+    margin-top: 28px;
     display: inline-block;
     color: #FDBCB4;
     font-weight: 800;
+    font-size: 30px;
     width: 20px;
     height: 20px;
     background: white;
@@ -664,7 +675,7 @@ background: linear-gradient(rgba(255, 210, 0, 0), rgb(253, 253, 253));
 
 
 #tema7 #mere7 .plus {
-    margin-top: 40px;
+    margin-top: 28px;
     display: inline-block;
     color: #FDBCB4;
     font-weight: 800;
